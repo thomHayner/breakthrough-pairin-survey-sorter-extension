@@ -11,4 +11,5 @@ Requires installation to Chrome through the Chrome Extension Manager
 - Pin to ToolBar
 - Options: Enable in Incognito Mode
 - FOR SOME REASON: You have to use it in a regular (non-incognito mode) tab to initialize it first
+  - I used an .html file of the survey that I "Save As"ed.
 - Once it has been initialized in the regular browser, you can use it in incognito mode to enter surveys.
