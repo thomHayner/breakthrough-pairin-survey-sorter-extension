@@ -1,0 +1,20 @@
+{
+  "short_name": "Sorter Tool",
+  "name": "Pairin Survey Sorter Tool",
+  "description": "A chrome extension tool for sorting a nodeList on a specific wepage to make it more user friendly",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Sort the survey",
+    "default_icon": "logo128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting"
+  ],
+  "incognito": "spanning"
+}
